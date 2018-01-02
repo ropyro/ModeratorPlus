@@ -5,7 +5,7 @@ Moderator+ is a Spigot plugin compatible with Spigot versions 1.8 through 1.12.2
 
 ### Staff Chat
   Description:
-  The staff chat is a private chat room that only staff members can see. This is a great place to discuss posible hackers, or hold staff meatings.
+  The staff chat is a private chat room that only staff members can see.
   	
   Use:
   /staffchat
