@@ -18,6 +18,6 @@ Moderator+ is a Spigot plugin compatible with Spigot versions 1.8 through 1.12.2
     * Ever wondered where a player is from? With this feature you can easily see where the specified player is from and their IP. 
   * Use:
     * /playerinfo <Player>
-       * Aliases: [pinfo, playeri]
+       * Aliases: [pinfo]
   
   #### More features coming soon! 
