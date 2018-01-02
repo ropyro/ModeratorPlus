@@ -1,1 +1,1 @@
-#Moderator+ Spigot Plugin
+Moderator+ Spigot Plugin
