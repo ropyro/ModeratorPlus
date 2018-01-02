@@ -1,0 +1,9 @@
+name: ModeratorPlus
+author: MrRonin
+main: bukkit.moderatorplus.ModeratorPlus
+version: 1.0
+commands:
+  staffchat:
+    aliases: [sc]
+  playerinfo:
+    aliases: [pinfo, playeri]
