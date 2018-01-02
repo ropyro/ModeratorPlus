@@ -21,3 +21,5 @@ Moderator+ is a Spigot plugin compatible with Spigot versions 1.8 through 1.12.2
   Use:
   /playerinfo <Player>
     Aliases: [pinfo, playeri]
+  
+  #### More features coming soon! 
