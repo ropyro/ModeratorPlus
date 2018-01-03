@@ -2,8 +2,8 @@ package bukkit.moderatorplus.playerinfo;
 
 import bukkit.moderatorplus.ModeratorPlus;
 import bukkit.moderatorplus.api.PermissionManager;
-import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -7,3 +7,6 @@ commands:
     aliases: [sc]
   playerinfo:
     aliases: [pinfo, playeri]
+  report:
+  activereports:
+    aliases: [areports, ar]
