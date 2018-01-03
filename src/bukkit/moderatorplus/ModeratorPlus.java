@@ -5,6 +5,8 @@ import bukkit.moderatorplus.api.PermissionManager;
 import bukkit.moderatorplus.playerinfo.PlayerInfoCMD;
 import bukkit.moderatorplus.report.cmds.ActiveReportsCMD;
 import bukkit.moderatorplus.report.cmds.ReportCMD;
+import bukkit.moderatorplus.report.guis.ActiveReportsGUI;
+import bukkit.moderatorplus.report.guis.ReportHandleGUI;
 import bukkit.moderatorplus.report.guis.ReportTypeGUI;
 import bukkit.moderatorplus.staffchat.StaffChatCMD;
 import bukkit.moderatorplus.staffchat.StaffChatListener;
@@ -53,6 +55,8 @@ public class ModeratorPlus extends JavaPlugin {
         //Events
         registerEvents(staffChatListener);
         registerEvents(ReportTypeGUI.INSTANCE);
+        registerEvents(ActiveReportsGUI.INSTANCE);
+        registerEvents(ReportHandleGUI.INSTANCE);
     }
     @Override
     public void onDisable() {

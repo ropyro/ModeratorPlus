@@ -1,7 +1,6 @@
 package bukkit.moderatorplus.report.cmds;
 
 import bukkit.moderatorplus.ModeratorPlus;
-import bukkit.moderatorplus.api.PermissionManager;
 import bukkit.moderatorplus.report.guis.ReportTypeGUI;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -16,16 +15,14 @@ public class ReportCMD implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] args) {
         if (!(commandSender instanceof Player)) return false;
         Player p = (Player) commandSender;
-//        if(!ModeratorPlus.getInstance().getPermissionManager().mayUse(p, PermissionManager.Feature.PLAYERINFO)){
-//            ModeratorPlus.getInstance().sendMessage(p, ChatColor.RED + "No permission!");
-//            return false;
-//        }
         if (args.length > 0) {
             for (Player player : Bukkit.getOnlinePlayers()) {
                 if (player.getName().equalsIgnoreCase(args[0])) {
                     p.openInventory(ReportTypeGUI.INSTANCE.getInv(p, player));
+                    return false;
                 }
             }
+            ModeratorPlus.getInstance().sendMessage(p, ChatColor.RED + args[0] + ChatColor.GRAY + " is not online!");
         } else {
             ModeratorPlus.getInstance().sendMessage(p, "Invalid arguments! /playerinfo <player>");
         }
