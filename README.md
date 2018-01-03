@@ -19,5 +19,14 @@ Moderator+ is a Spigot plugin compatible with Spigot versions 1.8 through 1.12.2
   * Use:
     * /playerinfo <Player>
        * Aliases: [pinfo]
+ ### Report System
+   * Description:
+     * Players in game can submit player reports and staff can view them in a GUI. Staff can then decide to accept or deny the reports. The reporter will be notified of the staffs decision. 
+   * Use:
+      * Staff:
+         * /activereports
+             * Aliases: [ar, areports]
+      * Users:
+         * /report <player>
   
   #### More features coming soon! 
